@@ -31,14 +31,14 @@ print(nums)
 nums.insert(1, 10) #[1, 10, 2, 3, 4]
 print(nums)
 nums.extend([5])
-print(nums)   # [1, 10, 2, 3, 4, 5, 6]
+print(nums)   # [1, 10, 2, 3, 4, 5]
 
 
 #Exercise: Start with an empty list. Take 5 user inputs and store them in the list.
 nums=[1, 2, 3]
 for i in range(5):
     a=int(input(f"enter number {i+1}:"))
-    nums.extend([a])
+    nums.append(a)
 
 # print("the list is ",num)
 nums[2]= 4
